@@ -20,10 +20,15 @@ body{
 
 .container{
 
-    width: 40%;
+    width: 45%;
     background-color: white;
     height: 70vh;
+    display: flex;
+    box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.5),
+    0px 0px 5px 0px rgba(255, 255, 255, 0.1);
+
 }
+
 
 .imgdiv{
 
@@ -31,9 +36,8 @@ body{
     position: relative;
     width: 50%;
     height: 100%;
-    background-color: aqua;
-
-
+    background-color: black;
+    transform: scale(1.05);
 
 
 }
@@ -41,14 +45,211 @@ body{
 
 .imgdiv img{
 
-    width: 130%;
-    height: 100%;
+    height: fit-content;
+    width: 95%;
     position: absolute;
-    left: 10;
+    left: 20px;
     bottom: 0;
-
-
-    
-
     
 }
+
+.details{
+
+    display: flex;
+    color: rgb(102, 102, 102);
+    flex-direction: column;
+    width: 50%;
+    padding-left: 20px;
+    padding-top: 20px;
+    row-gap: 20px;
+}
+
+h1{
+
+    color: black;
+}
+h2{
+
+    color: rgb(58, 55, 55);
+}
+
+h3{
+
+    color: rgb(2, 180, 2);
+}
+
+.selectsize{
+
+    display: flex;
+    color: black;
+    margin-top: 30px;
+    align-items: center;
+    
+}
+
+.selectsize p{
+
+    width: 70px;
+    font-size: 18px;
+}
+
+.selectsize input:checked + span{
+
+    color: blueviolet;
+    font-weight: 600;
+
+}
+
+.selectsize input{
+
+    display: none;
+}
+
+.selectsize span{
+
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.selectcolor{
+
+    display: flex;
+    margin-top: 20px;
+}
+
+.selectcolor p{
+
+    width: 80px;
+    color: black;
+    font-size: 18px;
+}
+
+
+.selectcolor span{
+
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.clr1{
+
+    background: blue;
+}
+
+.clr2{
+
+    background: green ;
+}
+
+.clr3{
+
+    background: red;
+}
+
+.clr4{
+
+    background: yellow;
+}
+
+.selectcolor input:checked + span{
+
+    transform: scale(1.2);
+    border: 2px solid black;
+}
+
+.selectcolor input{
+
+    display: none;
+}
+
+.quantity{
+
+    display: flex;
+
+    margin-top: 20px;
+
+
+}
+
+.quantity p{
+
+    width: 75px;
+    color: black;
+    font-size: 18px;
+}
+
+.quantity input{
+
+    width: 50px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: #eee;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+
+#buy{
+
+    width: 90%;
+    margin-top: 90px;
+    height: 50px;
+    background-color: rgb(92, 42, 142);
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+}
+
+#controls{
+
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+}
+
+#sp1{
+
+    background: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    
+}
+
+#sp2{
+
+    background: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+#sp3{
+
+    background: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+
+.circle{
+
+    border: 3px solid green;
+
+
+}
+
+
+
+
