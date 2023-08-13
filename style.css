@@ -1,0 +1,35 @@
+*{
+
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    height: 100vh;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container{
+
+    width: 40%;
+    background-color: white;
+    height: 70vh;
+}
+
+
+imgdiv img{
+
+    width: 100;
+    posi
+    
+}
