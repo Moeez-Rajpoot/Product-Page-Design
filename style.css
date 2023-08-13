@@ -16,7 +16,6 @@ body{
     justify-content: center;
     align-items: center;
 
-
 }
 
 .container{
@@ -26,10 +25,30 @@ body{
     height: 70vh;
 }
 
+.imgdiv{
 
-imgdiv img{
 
-    width: 100;
-    posi
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+
+
+
+
+}
+
+
+.imgdiv img{
+
+    width: 130%;
+    height: 100%;
+    position: absolute;
+    left: 10;
+    bottom: 0;
+
+
+    
+
     
 }
